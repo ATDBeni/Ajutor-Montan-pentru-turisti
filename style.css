@@ -41,7 +41,7 @@
   /* GENERAL ELEMENTS */
   .section {
     transition: transform 1s, opacity 1s;
-    padding: 15rem 3rem;
+
     border-top: 1px solid #ddd;
   }
   
@@ -201,7 +201,7 @@ border-radius:3px;
   
   /* HEADER */
   .header {
-    padding: 0 3rem;
+
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -411,3 +411,8 @@ font-size: 2.3rem;
 .operations__content--2{
   display :none;
 }
+.highlight{
+color: aqua;
+
+}
+
