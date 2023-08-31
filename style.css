@@ -30,7 +30,7 @@
     justify-content: center;
     align-items: center;
   }
-  body {
+  body { 
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: rgb(19, 19, 20);
@@ -88,27 +88,18 @@
   
   .btn--text {
     
-    height: 40px;
-    width: 210px;
-    display: inline-block;
-    background: none;
-    font-size: 1.7rem;
-    font-family: inherit;
-    font-weight: 500;
-    color: var(--color-primary);
-    border: solid;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 2px;
-    cursor: pointer;
-    transition: all 0.7s;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color:gray ;
+    margin-bottom: 20px;
   }
   .btn--text:hover{
-background-color: #222;
-color:white;
-border-radius:3px;
-
+    background-color: black;
+    width: 200px;
+    text-align: center;
+    
   }
   .buttonlearn{
     display: flex;
