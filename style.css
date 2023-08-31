@@ -1,5 +1,5 @@
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
-/* 
+
 :root {
     --color-primary: #5ec576;
     --color-secondary: #ffcb03;
@@ -12,7 +12,7 @@
     --color-tertiary-opacity: #ff58602d;
     --gradient-primary: linear-gradient(to top left, #39b385, #9be15d);
     --gradient-secondary: linear-gradient(to top left, #ffb003, #ffcb03);
-  } */
+  } 
   
   * {
     margin: 0;
@@ -408,12 +408,23 @@ a{
 .imagine-grup{
   width: 100%;
   
- 
 
 }
+
 .primu-paragarf{
 width: 80%;
-margin-left: 30px;
+margin-left: 10%;
 margin-top: -200px;
 }
-
+.first-h1{
+  margin-left: 10%;
+}
+.secon-titile{
+  font-size: 60px;
+}
+.swcond-para{
+  margin-left: 4%;
+}
+.imagemove{
+  margin-left: 3%;
+}
