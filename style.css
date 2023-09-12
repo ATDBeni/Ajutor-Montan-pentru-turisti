@@ -301,7 +301,7 @@ font-size: 2.3rem;
 
  .footer {
   padding: 10rem 3rem;
-  background-color: #37383d;
+  background-image: url(mnt3.jpg);
 }
 
 .footer__nav {
@@ -343,67 +343,15 @@ font-size: 2.3rem;
   background-color: #222;
 }
 .image-education{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--color-primary-opacity);
-  height: 40.5rem;
-  width: 50.5rem;
-  
-  margin-bottom: 2rem;
-
+  margin-top: 20px;
+width: 25%;
+height: 350px;
+margin-left: 0px;
 }
 .imagemove{
   display: flex;
-  
-  align-items: right;
-  justify-content: right;
 }
 /* section 3  */
-.operations__tab-container{
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin:12px;
-
-}
-.operations__tab--2{
-  margin:37px;
-  background-color:  rgb(132, 206, 235);;
-}
-.operations__tab--2:hover{
-  margin:37px;
-  background-color: rgb(74, 115, 132);;
-}
-
-.operations__tab--1{
-  margin: 10px;
-  background-color:  rgb(132, 206, 235);
-}
-.operations__tab--1:hover{
-  
-  background-color:  rgb(74, 115, 132);
-  color:#ddd;
-  
-}
-.operations__content{
-  display:flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  margin:50 0 50 0px;
-  border:solid 1px #222;
-  padding: 5rem;
-  border-radius: 0.9rem;
-}
-.operations__content--1{
-  display:none
-}
-.operations__content--2{
-  display :none;
-}
 a{
   text-decoration: none;
 }
@@ -414,6 +362,8 @@ a{
 }
 
 .primu-paragarf{
+font-weight: bold;
+  color: white;
 width: 80%;
 margin-left: 10%;
 margin-top: -200px;
@@ -424,14 +374,22 @@ margin-top: -200px;
 .secon-titile{
   font-size: 60px;
 }
-.swcond-para{
-  margin-left: 4%;
+
+.second-para{
+ margin-left: 4%;
+  font-weight: bold;
+  width: 60%;
+  color: white;
+ 
 }
 .imagemove{
   margin-left: 3%;
 }
 .teripara{
-  margin-left: 4%;
+  color: white;
+  margin-right: 4%;
+  font-weight: bold;
+
 }
 .section--paragraf{
   width: 50%;
@@ -442,10 +400,8 @@ margin-top: -200px;
 }
 .para1{
  
-
   display: flex;
   flex-direction: row;
-  
 }
 .img-munte{
   width: 45%;
