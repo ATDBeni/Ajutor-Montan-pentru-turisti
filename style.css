@@ -285,7 +285,7 @@ font-size: 2.3rem;
   background-color: #222;
 }
 .image-education{
-
+margin-bottom: 40px;
 margin-top: 20px;
 width: 30%;
 height: 400px;
@@ -337,10 +337,10 @@ margin-top: -200px;
 
 }
 .section--paragraf{
+  margin-top: 100px;
   width: 60%;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
- margin-top: 20px;
- margin-left: 20px;
+ margin-left: 30px;
  color: black;
  font-weight: bold;
 }
@@ -383,9 +383,25 @@ margin-left: 30px;
 margin-top: 30px;
 margin-bottom: 15px;
 }
-
+.list-plan{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  
+}
+.img-s3a{
+  width:28% ;
+  height: 500px;
+  margin-left: 7%;
+}
+.para-s3a{
+  width: 49%;
+  margin-left: 4%;
+}
 /* footer */
 .footer {
+  width: 100%;
   padding: 10rem 3rem;
   background-image: url(mnt3.jpg);
 }
