@@ -395,8 +395,11 @@ margin-bottom: 15px;
 
 .footer__link {
   font-size: 1.6rem;
-  color: #eee;
+  color: black;
   text-decoration: none;
+}
+.footer__link:hover{
+  color: blue;
 }
 
 .footer__logo {
@@ -408,8 +411,8 @@ margin-bottom: 15px;
 
 .footer__copyright {
   font-size: 1.4rem;
-  color: #aaa;
   text-align: center;
+  color: white;
 }
 
 .footer__copyright .footer__link {
