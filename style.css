@@ -418,3 +418,12 @@ margin-bottom: 15px;
 .footer__copyright .footer__link {
   font-size: 1.4rem;
 }
+.risc{
+  margin-left: 50px;
+  display: flex;
+}
+.content-risc> p{
+width: 50%;
+color: white;
+font-weight: bold;
+}
